@@ -12,7 +12,7 @@ lbl3 = Label(frame , text = "Password" , bg = "#3895D3" , fg = "white" , width =
 
 name_entry = Entry(frame)
 email_entry = Entry(frame)
-pass_entry = Entry(frame , show = "⁂")
+pass_entry = Entry(frame , show = "*")
 
 textbox = Text(bg = "#BEBEBE" , fg = "black")
 
@@ -22,7 +22,7 @@ def display():
     
     name = name_entry.get()
     
-    greet = f"Hey {name}"
+    greet = f"Hey stoopeed {name}"
     message = "\nCongratulations for your new account!"
     textbox.insert(END , greet)
     textbox.insert(END , message)
